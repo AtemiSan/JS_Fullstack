@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Часть 1 (flex)</title>
+    <link href="style.css" rel="stylesheet" type="text/css"></style>
+</head>
+<body>
+    <div id="main" class="in_row">
+        <aside id="left_col" class="in_column">
+            <div id="left_header" class="in_row"><div>Workit</div><div id="workit_dot">.</div></div>
+            <div id="left_menu">
+                <a id="dashboard" class="left_menu_button" href="#no_scroll"><img src="img/dashboard.png"><p>Dashboard</p></a>
+                <a id="available_units" class="left_menu_button" href="#no_scroll"><img src="img/available_units.png"><p>Available units</p></a>
+                <a id="invoices" class="left_menu_button" href="#no_scroll"><img src="img/invoices.png"><p>Invoices</p></a>
+                <a id="projects" class="left_menu_button" href="#no_scroll"><img src="img/projects.png"><p>Projects</p></a>
+                <a id="social_media" class="left_menu_button" href="#no_scroll"><img src="img/social_media.png"><p>Social media</p></a>
+                <a id="integrations" class="left_menu_button" href="#no_scroll"><img src="img/integrations.png"><p>Integrations</p></a>
+                <a id="documentation" class="left_menu_button" href="#no_scroll"><img src="img/documentation.png"><p>Documentation</p></a>
+            </div>
+            <div id="left_bottom_menu" class="in_column">
+                <a id="settings" class="left_menu_button" href="#no_scroll"><img src="img/settings.png"><p>Settings</p></a>
+                <a id="help_center" class="left_menu_button" href="#no_scroll"><img src="img/help_center.png"><p>Help center</p></a>
+            </div>
+        </aside>
+        <aside id="right_col" class="in_column">
+            <div id="right_header" class="in_row tool_panel">
+                <div id="right_header1" class="in_row">
+                    <a id="team" class="vert_center_btn" href="#no_scroll"><div>Team</div><div id="small_arrow">&#x25bc</div></a>
+                </div>
+                <div id="right_header2" class="in_row row_align_right">
+                    <a id="new_user" class="new_user_color oval_button vert_center_btn" href="#no_scroll">New user +</a>
+                    <a id="ring" class="round_button" href="#no_scroll"><img src="img/ring.png"></a>
+                    <a id="search" class="round_button" href="#no_scroll"><img src="img/search.png"></a>
+                    <a id="user" class="round_button" href="#no_scroll"><img src="img/no_avatar_30.png"></a>
+
+                </div>
+            </div>
+            <div id="right_filters" class="in_row tool_panel">
+                <div id="right_filters1" class="in_row">
+                    <a id="filter_users" class="oval_button vert_center_btn" href="#no_scroll"><p>Filter users</p><img src="img/filter_users.png"></a>
+                    <a id="filter_search" class="oval_button vert_center_btn" href="#no_scroll">
+                        <p><input class="filter_search_input " type="text" value="" placeholder="Try 'Miami beachhouse'"></p>
+                        <img src="img/search.png">
+                    </a>
+                </div>
+                <div id="right_filters2" class="in_row row_align_right">
+                    <a id="filter_sort" class="oval_button vert_center_btn" href="#no_scroll"><p>Sort by date</p><img src="img/sort_arrow.png"></a>
+                    <a id="filter_other" class="round_button" href="#no_scroll"><img src="img/filter_other.png"></a>
+                </div>
+            </div>
+            <div id="content" class="in_row">
+                <div class="card">
+                    <div class="card_photo"><img src="img/no_avatar_73.png"></div>
+                    <div class="card_name">Femail Name</div>
+                    <div class="card_dolj">Any doljnost</div>
+                    <div class="card_counters">
+                        <div class="card_counter"><p class="card_counter_header">Projects</p><p class="card_counter_value">0</p></div>
+                        <div class="card_counter"><p class="card_counter_header">Tasks</p><p class="card_counter_value">0</p></div>
+                        <div class="card_counter"><p class="card_counter_header">Insights</p><p class="card_counter_value">0</p></div>
+                    </div>
+                    <div class="card_btn">
+                        <a class="oval_button vert_center_btn" href="#no_scroll">View profile</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card_photo"><img src="img/no_avatar_73.png"></div>
+                    <div class="card_name">Femail Name</div>
+                    <div class="card_dolj">Any doljnost</div>
+                    <div class="card_counters">
+                        <div class="card_counter"><p class="card_counter_header">Projects</p><p class="card_counter_value">0</p></div>
+                        <div class="card_counter"><p class="card_counter_header">Tasks</p><p class="card_counter_value">0</p></div>
+                        <div class="card_counter"><p class="card_counter_header">Insights</p><p class="card_counter_value">0</p></div>
+                    </div>
+                    <div class="card_btn">
+                        <a class="oval_button vert_center_btn" href="#no_scroll">View profile</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card_photo"><img src="img/no_avatar_73.png"></div>
+                    <div class="card_name">Femail Name</div>
+                    <div class="card_dolj">Any doljnost</div>
+                    <div class="card_counters">
+                        <div class="card_counter"><p class="card_counter_header">Projects</p><p class="card_counter_value">0</p></div>
+                        <div class="card_counter"><p class="card_counter_header">Tasks</p><p class="card_counter_value">0</p></div>
+                        <div class="card_counter"><p class="card_counter_header">Insights</p><p class="card_counter_value">0</p></div>
+                    </div>
+                    <div class="card_btn">
+                        <a class="oval_button vert_center_btn" href="#no_scroll">View profile</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card_photo"><img src="img/no_avatar_73.png"></div>
+                    <div class="card_name">Femail Name</div>
+                    <div class="card_dolj">Any doljnost</div>
+                    <div class="card_counters">
+                        <div class="card_counter"><p class="card_counter_header">Projects</p><p class="card_counter_value">0</p></div>
+                        <div class="card_counter"><p class="card_counter_header">Tasks</p><p class="card_counter_value">0</p></div>
+                        <div class="card_counter"><p class="card_counter_header">Insights</p><p class="card_counter_value">0</p></div>
+                    </div>
+                    <div class="card_btn">
+                        <a class="oval_button vert_center_btn" href="#no_scroll">View profile</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card_photo"><img src="img/no_avatar_73.png"></div>
+                    <div class="card_name">Femail Name</div>
+                    <div class="card_dolj">Any doljnost</div>
+                    <div class="card_counters">
+                        <div class="card_counter"><p class="card_counter_header">Projects</p><p class="card_counter_value">0</p></div>
+                        <div class="card_counter"><p class="card_counter_header">Tasks</p><p class="card_counter_value">0</p></div>
+                        <div class="card_counter"><p class="card_counter_header">Insights</p><p class="card_counter_value">0</p></div>
+                    </div>
+                    <div class="card_btn">
+                        <a class="oval_button vert_center_btn" href="#no_scroll">View profile</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card_photo"><img src="img/no_avatar_73.png"></div>
+                    <div class="card_name">Femail Name</div>
+                    <div class="card_dolj">Any doljnost</div>
+                    <div class="card_counters">
+                        <div class="card_counter"><p class="card_counter_header">Projects</p><p class="card_counter_value">0</p></div>
+                        <div class="card_counter"><p class="card_counter_header">Tasks</p><p class="card_counter_value">0</p></div>
+                        <div class="card_counter"><p class="card_counter_header">Insights</p><p class="card_counter_value">0</p></div>
+                    </div>
+                    <div class="card_btn">
+                        <a class="oval_button vert_center_btn" href="#no_scroll">View profile</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card_photo"><img src="img/no_avatar_73.png"></div>
+                    <div class="card_name">Femail Name</div>
+                    <div class="card_dolj">Any doljnost</div>
+                    <div class="card_counters">
+                        <div class="card_counter"><p class="card_counter_header">Projects</p><p class="card_counter_value">0</p></div>
+                        <div class="card_counter"><p class="card_counter_header">Tasks</p><p class="card_counter_value">0</p></div>
+                        <div class="card_counter"><p class="card_counter_header">Insights</p><p class="card_counter_value">0</p></div>
+                    </div>
+                    <div class="card_btn">
+                        <a class="oval_button vert_center_btn" href="#no_scroll">View profile</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card_photo"><img src="img/no_avatar_73.png"></div>
+                    <div class="card_name">Femail Name</div>
+                    <div class="card_dolj">Any doljnost</div>
+                    <div class="card_counters">
+                        <div class="card_counter"><p class="card_counter_header">Projects</p><p class="card_counter_value">0</p></div>
+                        <div class="card_counter"><p class="card_counter_header">Tasks</p><p class="card_counter_value">0</p></div>
+                        <div class="card_counter"><p class="card_counter_header">Insights</p><p class="card_counter_value">0</p></div>
+                    </div>
+                    <div class="card_btn">
+                        <a class="oval_button vert_center_btn" href="#no_scroll">View profile</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card_photo"><img src="img/no_avatar_73.png"></div>
+                    <div class="card_name">Femail Name</div>
+                    <div class="card_dolj">Any doljnost</div>
+                    <div class="card_counters">
+                        <div class="card_counter"><p class="card_counter_header">Projects</p><p class="card_counter_value">0</p></div>
+                        <div class="card_counter"><p class="card_counter_header">Tasks</p><p class="card_counter_value">0</p></div>
+                        <div class="card_counter"><p class="card_counter_header">Insights</p><p class="card_counter_value">0</p></div>
+                    </div>
+                    <div class="card_btn">
+                        <a class="oval_button vert_center_btn" href="#no_scroll">View profile</a>
+                    </div>
+                </div>
+            </div>
+        </aside>
+    </div>
+</body>
+</html>

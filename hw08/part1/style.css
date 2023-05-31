@@ -1,0 +1,280 @@
+html, body, #main, #left_col, #right_col {
+    height: 100%;
+    min-height: 450px;
+}
+
+html, body, #main {
+    min-width: 780px;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(69,69,224);
+    background: radial-gradient(circle, rgba(69,69,224,1) 50%, rgba(2,0,36,1) 100%); 
+}
+
+#main {
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+}
+
+.in_row {
+    display: flex;
+    flex-direction: row;
+}
+
+.in_column {
+    display: flex;
+    flex-direction: column;
+}
+
+#left_col {
+    flex-basis: 200px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: black;
+    min-width: 170px;
+}
+
+#right_col {
+    flex-basis: 900px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: white;
+}
+
+#left_header {
+    color: white;
+    font-size: 14pt;
+    text-align: center;
+    margin-bottom: 12px;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    flex-shrink: 0;
+}
+
+#workit_dot {
+    color: blue;
+    font-size: 20pt;
+}
+
+.left_menu_button {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 11pt;
+    text-decoration: none;
+    height: 40px;
+}
+
+.left_menu_button:hover {
+    background-color: rgb(36, 45, 54);
+    border-right-style: solid;
+    border-right-width: 3px;
+    border-right-color: rgb(113, 117, 208);
+}
+
+.left_menu_button > img {
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 20px;
+    height: 20px;
+}
+
+#left_bottom_menu {
+    justify-content: end;
+    height: 100%;
+}
+
+.round_button {
+    border-radius: 30px;
+    border-color: rgb(241, 241, 241);
+    border-style: solid;
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.round_button:hover {
+    background-color: rgb(212, 212, 212);
+}
+
+.round_button > img {
+    border-radius: 15px;
+}
+
+#team {
+    text-decoration: none;
+    font-size: 14pt;
+    color: black;
+    height: 30px;
+    font-weight: bold;
+}
+
+#team:hover {
+    background-color: rgb(212, 212, 212);
+}
+
+.oval_button {
+    border-radius: 15px;
+    border-color: rgb(241, 241, 241);
+    border-style: solid;
+    margin-left: 10px;
+    text-decoration: none;
+    height: 30px;
+    color: black;
+    font-size: 9pt;
+    padding-left: 15px;
+    padding-right: 15px;
+    white-space: nowrap;
+}
+
+.oval_button:hover {
+    background-color: rgb(212, 212, 212);
+}
+
+#new_user {
+    color: white;
+}
+
+.new_user_color {
+    background-color: rgb(67, 62, 243);
+}
+
+.vert_center_btn {
+    display: flex;
+    align-items: center;
+}
+
+.row_align_right {
+    width: 100%;
+    justify-content: end;;
+}
+
+#small_arrow {
+    font-size: 8pt;
+    margin-left: 15px;
+}
+
+.tool_panel {
+    justify-content: end;
+    align-items: center;
+    height: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-bottom-style: solid;
+    border-color: rgb(241, 241, 241);
+    flex-shrink: 0;
+}
+
+.filter_search_input {
+    height: 30px;
+    border-width: 0px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    padding-left: 15px;
+}
+
+.filter_search_input:focus {
+    outline: none;
+}
+
+.margin_rigth_15 {
+    margin-right: 15px;
+}
+
+#filter_users {
+    margin-left: 0px;
+    padding-right: 0px;
+}
+
+#filter_search {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#filter_sort {
+    padding-right: 0px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px;
+    width: 236px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: rgb(241, 241, 241);  
+    margin: 10px;     
+}
+
+.card_photo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.card_photo > img {
+    width: 73px;
+    height: 73px;
+}
+
+.card_name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.card_dolj {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    font-size: 13px;
+    color: rgba(151, 155, 158);
+    margin-bottom: 0px;
+}
+
+.card_counters {
+    display: flex;
+    justify-content: center;
+}
+
+.card_counter {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.card_counter > p {
+    text-align: center;
+}
+
+.card_counter_header {
+    font-size: 13px;
+    color: rgba(190, 191, 193);
+}
+
+.card_counter_value {
+    font-size: 13px;
+    color: rgba(140, 141, 143);
+}
+
+.card_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+}
+
+#content {
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    padding: 10px;
+}
